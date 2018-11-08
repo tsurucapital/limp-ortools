@@ -1,0 +1,35 @@
+name: limp-ortools
+version: 0.0.0.0
+id: limp-ortools-0.0.0.0-8uN7Yevx4kpEXblAsrT1uL
+key: limp-ortools-0.0.0.0-8uN7Yevx4kpEXblAsrT1uL
+license: PublicDomain
+maintainer: aljee@hyper.cx
+synopsis: limp interface for or-tools
+category: Math
+author: Takano Akio
+exposed: True
+indefinite: False
+exposed-modules:
+    Numeric.Limp.Solvers.OrTools Numeric.Limp.Solvers.OrTools.Solve
+    Numeric.Limp.Solvers.OrTools.Types
+hidden-modules: Numeric.Limp.Solvers.OrTools.Program
+                Numeric.Limp.Solvers.OrTools.FFI
+abi: c0a98943a28b891fe4fd4a3c44dcf80a
+trusted: False
+import-dirs: /usr/local/ghc/ghc-8.6.1.0/lib/x86_64-linux-ghc-8.6.1/limp-ortools-0.0.0.0-8uN7Yevx4kpEXblAsrT1uL
+library-dirs: /usr/local/ghc/ghc-8.6.1.0/lib/x86_64-linux-ghc-8.6.1/limp-ortools-0.0.0.0-8uN7Yevx4kpEXblAsrT1uL
+dynamic-library-dirs: /usr/local/ghc/ghc-8.6.1.0/lib/x86_64-linux-ghc-8.6.1
+data-dir: /usr/local/ghc/ghc-8.6.1.0/share/x86_64-linux-ghc-8.6.1/limp-ortools-0.0.0.0
+hs-libraries: HSlimp-ortools-0.0.0.0-8uN7Yevx4kpEXblAsrT1uL
+extra-libraries:
+    ortools stdc++
+depends:
+    base-4.12.0.0 containers-0.6.0.1
+    limp-0.3.2.1-Bn4YXIFytwz6kntepSR1ax
+    vector-0.12.0.1-7xwlfw8b9aSHyZpdVaeU5I
+abi-depends: base-4.12.0.0=180ef780a86ccdceac67f73f9a4ae5ad
+             containers-0.6.0.1=9131512d455bab65383c3480d87e62ca
+             limp-0.3.2.1-Bn4YXIFytwz6kntepSR1ax=4b1bef390ae71defdd259316ad624ff0
+             vector-0.12.0.1-7xwlfw8b9aSHyZpdVaeU5I=41c6bde3256477f4fa984fbbdf894f55
+haddock-interfaces: /usr/local/ghc/ghc-8.6.1.0/share/doc/x86_64-linux-ghc-8.6.1/limp-ortools-0.0.0.0/html/limp-ortools.haddock
+haddock-html: /usr/local/ghc/ghc-8.6.1.0/share/doc/x86_64-linux-ghc-8.6.1/limp-ortools-0.0.0.0/html
